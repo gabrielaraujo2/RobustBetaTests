@@ -1,0 +1,31 @@
+# Ignore temporary files
+*.tmp
+*.log
+*~
+
+# Ignore R specific files
+.RData
+.Rhistory
+.Rproj.user
+*.Rproj
+
+# Ignore build artifacts
+/build/
+/dist/
+/src/*.o
+/src/*.so
+/src/*.dll
+
+# Ignore package check results
+*.Rcheck/
+
+# Ignore documentation files that are generated
+/man/
+/doc/
+/Meta/
+/vignettes/*.html
+/vignettes/*.pdf
+
+# Ignore system files
+.DS_Store
+Thumbs.db

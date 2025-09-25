@@ -1,0 +1,15 @@
+Package: RobustBetaTests
+Type: Package
+Title: Robust Hypothesis Testing for Beta Regression Models
+Version: 0.1.0
+Author: Gabriel Araujo
+Maintainer: Gabriel Araujo <gabriel@example.com>
+Description: Computational routines for robust hypothesis testing in beta regression models.
+    This package provides functions for fitting beta regression models with robust
+    methods and performing robust hypothesis tests including Wald, Score, and 
+    Likelihood Ratio tests with robust variance estimation.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: stats, MASS
+RoxygenNote: 7.0.0

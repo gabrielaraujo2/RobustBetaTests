@@ -8,5 +8,6 @@ export(beta_score)
 export(beta_hessian)
 
 importFrom(stats, optim, plogis, qlogis, dbeta, pbeta, qbeta)
-importFrom(stats, model.matrix, model.response, terms)
+importFrom(stats, model.matrix, model.response, terms, model.frame)
+importFrom(stats, glm, binomial, coef, pchisq, pnorm, digamma)
 importFrom(MASS, ginv)

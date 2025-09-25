@@ -12,5 +12,4 @@ License: GPL-3
 Encoding: UTF-8
 Depends: R (>= 3.5.0)
 Imports: stats, MASS
-Suggests: testthat
 RoxygenNote: 7.0.0
